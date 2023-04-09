@@ -30,11 +30,6 @@ public class UserInterfaceFactory implements MediatorComponent {
         }
     }
 
-//    @Override
-//    public Object getMediatorData() throws FactoryException {
-//        throw new FactoryException(ErrorCode.NOT_IMPLEMENTED);
-//    }
-
     public enum InterfaceType {
         API,
         CLI,
